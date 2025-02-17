@@ -1,0 +1,999 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container-Page2 {
+  overflow: hidden;
+}
+
+.main-container-Page2,
+.main-container-Page2 * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container-Page2 {
+  position: relative;
+  width: 375px;
+  height: 5900px;
+  margin: 0 auto;
+  font-size: 0px;
+  background: #f4f8fb;
+  overflow: hidden;
+}
+.we-save-you-company-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 272px;
+  height: 160px;
+  margin: 113px 0 0 12px;
+  color: #000000;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  text-transform: capitalize;
+  z-index: 6;
+}
+.rectangle-Page2 {
+  position: absolute;
+  width: 350px;
+  height: 252px;
+  top: 626px;
+  left: 9px;
+  background: #ffffff;
+  z-index: 12;
+}
+.you-deserve-expertise-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 283px;
+  height: 93px;
+  top: 94px;
+  left: 34px;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 31px;
+  text-align: left;
+  z-index: 13;
+}
+.rectangle-1-Page2 {
+  position: absolute;
+  width: 350px;
+  height: 252px;
+  top: 898px;
+  left: 9px;
+  background: #111bd2;
+  z-index: 15;
+}
+
+.s-Page2 {
+  position: relative;
+  width: 117px;
+  height: 172px;
+  top: 27px;
+  left: 196px;
+  margin-top: 10px;
+  background: url(../assets/images2/f4b356b3-67dd-480e-98b3-467ff46d5b75.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 18;
+}
+.ninety-percent-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 64px;
+  top: 52px;
+  left: 23px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 16;
+}
+.improved-efficiency-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 321px;
+  height: 59px;
+  top: 140px;
+  left: 26px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  z-index: 17;
+}
+.amazing-customer-service-Page2 {
+  position: relative;
+  height: 55px;
+  margin: 27px 0 0 12px;
+  top:900px;
+  color: #111bd2;
+  flex-wrap: wrap;  /* 允许子元素换行 */
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 19;
+}
+.amazing-customer-service-2-Page2 {
+  flex-wrap: wrap;  /* 允许子元素换行 */
+  top:900px;
+  position: relative;
+  width: 347px;
+  height: 320px;
+  margin: 5px 0 0 12px;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  z-index: 20;
+}
+
+.full-service-digital-agency-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+.web-design-Page2 {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+}
+.full-service-digital-agency-3-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+.web-design-4-Page2 {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+}
+.full-service-digital-agency-5-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+.web-design-6-Page2 {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+}
+.full-service-digital-agency-7-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+.web-design-8-Page2 {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+}
+.full-service-digital-agency-9-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+.rectangle-a-Page2 {
+  position: relative;
+  width: 611px;
+  height: 526px;
+  margin: 4480px 0 0 -137px;
+  font-size: 0px;
+  background: #111bd2;
+  z-index: 51;
+  overflow: visible auto;
+}
+.amazing-customer-service-b-Page2 {
+  display: block;
+  position: relative;
+  height: 55px;
+  margin: 25px 0 0 158px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 53;
+}
+.get-in-touch-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 295px;
+  height: 220px;
+  margin: 34px 0 0 158px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  z-index: 52;
+}
+.rectangle-c-Page2 {
+  position: relative;
+  width: 190px;
+  height: 41px;
+  margin: 55px 0 0 158px;
+  background: #ffffff;
+  z-index: 54;
+}
+.start-project-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 10px;
+  left: 18px;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 55;
+}
+.rectangle-d-Page2 {
+  position: relative;
+  width: 487px;
+  height: 293px;
+  margin: 0 0 0 -74px;
+  background: #000000;
+  z-index: 56;
+}
+.sparkvise-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 369px;
+  height: 184px;
+  top: 109px;
+  left: 80px;
+  color: rgba(255, 255, 255, 0.2);
+  font-family: League Spartan, var(--default-font-family);
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 92px;
+  text-align: left;
+  letter-spacing: -5px;
+  z-index: 57;
+}
+.mask-group-Page2 {
+  position: absolute;
+  width: 843.558px;
+  height: 489px;
+  top: -9px;
+  left: -281px;
+  background: url(../assets/images2/4967a3d9-a37b-4cd2-b57c-118707fb42be.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+.rectangle-e-Page2 {
+  position: absolute;
+  width: 153px;
+  height: 41px;
+  top: 12px;
+  left: 206px;
+  background: #111bd2;
+  z-index: 4;
+}
+.start-project-f-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 16px;
+  top: 13px;
+  left: 16px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 5;
+}
+.sparkvise-10-Page2 {
+  position: absolute;
+  width: 129px;
+  height: 32px;
+  top: 17px;
+  left: 12px;
+  background: url(../assets/images2/0d3e77ab-894c-40b3-805b-a2712712e04b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 3;
+}
+.rectangle-11-Page2 {
+  position: absolute;
+  width: 350px;
+  height: 252px;
+  top: 354px;
+  left: 9px;
+  background: #ffffff;
+  z-index: 8;
+}
+
+.cut-costs-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 319px;
+  height: 50px;
+  top: 165px;
+  left: 23px;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  z-index: 10;
+}
+
+.text-15-Page2 {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: right;
+}
+.percent-Page2 {
+  position: absolute;
+  width: 253px;
+  height: 37px;
+  top: 436px;
+  left: -39px;
+  font-family: Helvetica, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: right;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 9;
+}
+.text-15-Page2 {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: right;
+}
+.percent-12-Page2 {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: right;
+}
+.ellipse-Page2 {
+  position: absolute;
+  width: 390px;
+  height: 390px;
+  top: 460px;
+  left: -18px;
+  background: url(../assets/images2/ac17249b-9cc5-4d93-b6df-19d30dba0af6.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(100px);
+  border-radius: 50%;
+}
+.rectangle-13-Page2 {
+  position: absolute;
+  width: 1280px;
+  height: 360px;
+  top: 1634px;
+  left: -569px;
+  background: url(../assets/images2/40a166fdf1c18d7845e482def13e7645cc379c9c.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 21;
+}
+.rectangle-14-Page2 {
+  position: absolute;
+  width: 404px;
+  height: 773px;
+  top: 1979px;
+  left: -16px;
+  font-size: 0px;
+  background: #111bd2;
+  z-index: 22;
+}
+.amazing-customer-service-15-Page2 {
+  display: block;
+  position: relative;
+  height: 55px;
+  margin: 15px 0 0 37px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 24;
+}
+.amazing-customer-service-16-Page2 {
+  position: relative;
+  width: 326px;
+  height: 600px;
+  margin: 10px 0 0 37px;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  z-index: 23;
+  white-space: wrap;
+}
+.at-Page2 {
+  position: relative;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+.sparkvise-17-Page2 {
+  position: relative;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+}
+.at-18-Page2 {
+  flex-wrap: wrap;  /* 允许子元素换行 */
+  position: relative;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+.line-Page2 {
+  position: absolute;
+  width: 375px;
+  height: 1px;
+  top: 2116px;
+  left: 0;
+  background: url(../assets/images2/156279ab-7aaa-4158-96dc-b1ea59288019.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+}
+.rectangle-19-Page2 {
+  position: absolute;
+  width: 330px;
+  height: 52px;
+  top: 2721px;
+  left: 21px;
+  background: #00faff;
+  z-index: 50;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.ellipse-1a-Page2 {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 27px;
+  left: 19px;
+  background: url(../assets/images2/54564400-e411-4dac-b8a4-bf5470d94a7d.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 29;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.group-Page2 {
+  position: absolute;
+  width: 7.91%;
+  height: 31px;
+  top: 39px;
+  left: 10%;
+  background: url(../assets/images2/d5cbaad0-be0c-4af3-aff7-94bbc839f7aa.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 30;
+}
+.rectangle-1b-Page2 {
+  position: absolute;
+  width: 350px;
+  height: 241px;
+  top: 2773px;
+  left: 11px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 26;
+  border-radius: 10px;
+
+}
+.initial-review-Page2 {
+  display: block;
+  position: relative;
+  height: 28px;
+  margin: 46px 0 0 39px;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 27;
+}
+.comprehensive-website-design-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 251px;
+  height: 100px;
+  margin: 20px 0 0 39px;
+  color: #50606d;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  z-index: 28;
+}
+.rectangle-1c-Page2 {
+  position: absolute;
+  width: 330px;
+  height: 52px;
+  top: 3035px;
+  left: 21px;
+  background: #a100ff;
+  z-index: 50;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.ellipse-1d-Page2 {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 27px;
+  left: 19px;
+  background: url(../assets/images2/f1209355-0579-40c6-bf25-406687163a5a.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 35;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+.group-1e-Page2 {
+  position: absolute;
+  width: 7.58%;
+  height: 25px;
+  top: 42px;
+  left: 10.3%;
+  background: url(../assets/images2/29d4818c-b064-4eb4-be6c-5554b3804c0b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 36;
+}
+.rectangle-1f-Page2 {
+  position: absolute;
+  width: 350px;
+  height: 241px;
+  top: 3087px;
+  left: 11px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 32;
+  border-radius: 10px;
+}
+.initial-review-20-Page2 {
+  display: block;
+  position: relative;
+  height: 28px;
+  margin: 46px 0 0 39px;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 34;
+}
+.custom-ios-android-apps-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 271px;
+  height: 100px;
+  margin: 20px 0 0 39px;
+  color: #50606d;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  z-index: 33;
+}
+.rectangle-21-Page2 {
+  position: absolute;
+  width: 330px;
+  height: 53px;
+  top: 3349px;
+  left: 21px;
+  background: #bdff07;
+  z-index: 50;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.ellipse-22-Page2 {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 27px;
+  left: 19px;
+  background: url(../assets/images2/71c4d24c-e489-466a-8c61-6f029c237843.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 41;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+.vector-Page2 {
+  position: absolute;
+  width: 7.88%;
+  height: 25px;
+  top: 42px;
+  left: 10.61%;
+  background: url(../assets/images2/d2b6e7a4-81be-45fb-8bd4-a818168f170e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 42;
+}
+.vector-23-Page2 {
+  position: relative;
+  width: 7px;
+  height: 8px;
+  margin: 13px 0 0 15px;
+  background: url(../assets/images2/99b9a50d-8277-41ef-9d47-a1918acf6411.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 43;
+}
+.rectangle-24-Page2 {
+  position: absolute;
+  width: 350px;
+  height: 241px;
+  top: 3401px;
+  left: 11px;
+  background: #ffffff;
+  z-index: 38;
+  border-radius: 10px;
+}
+.customer-experience-outsourcing-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 237px;
+  height: 84px;
+  top: 46px;
+  left: 39px;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  z-index: 40;
+}
+.customer-experience-outsourcing-solutions-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 289px;
+  height: 100px;
+  top: 113px;
+  left: 39px;
+  color: #50606d;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  z-index: 39;
+}
+.amazing-customer-service-25-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 157px;
+  height: 110px;
+  top: 3660px;
+  left: 21px;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  z-index: 45;
+}
+.amazing-customer-service-26-Page2 {
+  position: absolute;
+  width: 334px;
+  height: 160px;
+  top: 3732px;
+  left: 21px;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  z-index: 44;
+}
+.across-industries-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+.leading-organizations-Page2 {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+}
+.across-industries-27-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+.leading-organizations-28-Page2 {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+}
+.across-industries-29-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+.mask-group-2a-Page2 {
+  position: absolute;
+  width: 1280px;
+  height: 533px;
+  top: 3959px;
+  left: -573px;
+  background: url(../assets/images2/f4b6b3bb-b6a1-4bf3-ba53-6dd1c871ef52.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 46;
+}
+.amazing-customer-service-2b-Page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 243px;
+  height: 165px;
+  top: 4487px;
+  left: 21px;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  z-index: 48;
+}
+.amazing-customer-service-2c-Page2 {
+  position: absolute;
+  width: 334px;
+  height: 476px;
+  top: 4558px;
+  left: 21px;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  z-index: 47;
+}
+.partnering-with-sparkvise-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+.sparkvise-2d-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+}
+.partnering-with-sparkvise-2e-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+.sparkvise-2f-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+}
+.expertise-innovation-partner-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+.scott-slawson-Page2 {
+  position: absolute;
+  width: 258px;
+  height: 52px;
+  top: 5060px;
+  left: 72px;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 50;
+}
+.anas-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+.operating-director-eating-in-delivery-Page2 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+.group-30-Page2 {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  top: 5067px;
+  left: 21px;
+  background: url(../assets/images2/045fe5f0-a99d-4d48-b748-684ad17b4530.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 49;
+}

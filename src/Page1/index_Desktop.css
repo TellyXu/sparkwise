@@ -1,0 +1,1031 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+  "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+  "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: absolute;
+  width: 1280px;
+  height: 4450px;
+  margin: 0 auto;
+  background: #f4f8fb;
+  overflow: hidden;
+}
+.flex-row-dba {
+  position: relative;
+  width: 1080px;
+  height: 48px;
+  margin: 22px 0 0 100px;
+  z-index: 26;
+}
+.sparkvise {
+  position: absolute;
+  width: 194px;
+  height: 48px;
+  top: 0;
+  left: 0;
+  background: url(../assets/images1/99de7677-e585-4100-9684-4f7db45ab589.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 25;
+}
+.rectangle {
+  position: absolute;
+  width: 190px;
+  height: 41px;
+  top: 0;
+  left: 890px;
+  background: #111bd2;
+  z-index: 26;
+}
+.start-a-project {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 10px;
+  left: 18px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 27;
+}
+.where-ideas-spark {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 731px;
+  height: 150px;
+  margin: 113px 0 0 99px;
+  color: #000000;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 75px;
+  text-align: left;
+  text-transform: capitalize;
+  z-index: 28;
+}
+.flex-row-ee {
+  position: relative;
+  width: 1128px;
+  height: 390px;
+  margin: 231px 0 0 52px;
+  z-index: 22;
+}
+.ellipse {
+  position: absolute;
+  width: 390px;
+  height: 390px;
+  top: 0;
+  left: 232px;
+  background: url(../assets/images1/e29d81cb-8ef2-4d86-9194-055678cb49ac.png)
+  no-repeat center;
+  background-size: cover;
+  filter: blur(100px);
+  z-index: 1;
+  border-radius: 50%;
+}
+.rectangle-1 {
+  position: absolute;
+  width: 350px;
+  height: 252px;
+  top: 76px;
+  left: 48px;
+  background: #ffffff;
+  z-index: 15;
+}
+.customer-satisfaction {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 319px;
+  height: 50px;
+  top: 165px;
+  left: 23px;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  z-index: 17;
+}
+.rectangle-2 {
+  position: absolute;
+  width: 350px;
+  height: 252px;
+  top: 76px;
+  left: 413px;
+  background: #ffffff;
+  z-index: 19;
+}
+.you-deserve-expertise {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 283px;
+  height: 93px;
+  top: 94px;
+  left: 34px;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 31px;
+  text-align: left;
+  z-index: 20;
+}
+.rectangle-3 {
+  position: absolute;
+  width: 350px;
+  height: 252px;
+  top: 76px;
+  left: 778px;
+  background: #111bd2;
+  z-index: 22;
+}
+.s {
+  position: absolute;
+  width: 117px;
+  height: 172px;
+  top: 27px;
+  left: 196px;
+  background: url(../assets/images1/994fff39-b67a-4ae9-9b83-65d828dc6e19.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 29;
+}
+.percentage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 64px;
+  top: 52px;
+  left: 23px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 23;
+}
+.improved-efficiency {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 321px;
+  height: 59px;
+  top: 140px;
+  left: 26px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  z-index: 24;
+}
+.percentage-4 {
+  position: absolute;
+  width: 253px;
+  height: 37px;
+  top: 158px;
+  left: 0;
+  font-family: Helvetica, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: right;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 16;
+}
+.text-7 {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: right;
+}
+.percentage-5 {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: right;
+}
+.about-us {
+  display: block;
+  position: relative;
+  height: 55px;
+  margin: -6px 0 0 100px;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 6;
+}
+.amazing-customer-service {
+  position: relative;
+  width: 1080px;
+  height: 220px;
+  margin: 20px 0 0 100px;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  z-index: 3;
+}
+.digital-agency-chicago {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+}
+.web-design {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+}
+.digital-agency-chicago-6 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+}
+.web-design-7 {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+}
+.digital-agency-chicago-8 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+}
+.web-design-9 {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+}
+.digital-agency-chicago-a {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+}
+.web-design-b {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+}
+.elevate-brand-experience {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+}
+.flex-row {
+  position: relative;
+  width: 1080px;
+  height: 194px;
+  margin: 1414px 0 0 98px;
+  z-index: 7;
+}
+.our-partners {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 157px;
+  height: 110px;
+  top: 0;
+  left: 2px;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  z-index: 7;
+}
+.amazing-customer-service-c {
+  position: absolute;
+  width: 1080px;
+  height: 110px;
+  top: 84px;
+  left: 0;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  z-index: 4;
+}
+.create-impactful {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+}
+.digital-experiences {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+}
+.create-impactful-d {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+}
+.digital-experiences-e {
+  position: relative;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+}
+.across-industries {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+}
+.flex-row-b {
+  position: relative;
+  width: 1025px;
+  height: 207px;
+  margin: 708px 0 0 100px;
+  z-index: 8;
+}
+.amazing-customer-service-f {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 243px;
+  height: 165px;
+  top: 0;
+  left: 0;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  z-index: 8;
+}
+.amazing-customer-service-10 {
+  position: absolute;
+  width: 1025px;
+  height: 136px;
+  top: 71px;
+  left: 0;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  z-index: 5;
+}
+.partnering-with-sparkvise {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+.sparkvise-11 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+}
+.partnering-with-sparkvise-12 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+.sparkvise-13 {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+}
+.expertise-commitment-innovation {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+.flex-row-d {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 309px;
+  height: 52px;
+  margin: 10px 0 0 100px;
+  z-index: 57;
+}
+.frame {
+  flex-shrink: 0;
+  position: relative;
+  width: 37px;
+  height: 37px;
+  background: url(../assets/images1/6180f9f5-6e27-4c76-87a0-2d36bdfa770e.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 56;
+}
+.scott-slawson {
+  flex-shrink: 0;
+  position: relative;
+  width: 258px;
+  height: 52px;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 57;
+}
+.anas {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+.operating-director-eating-in-delivery {
+  position: relative;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+.rectangle-14 {
+  position: relative;
+  width: 1280px;
+  height: 336px;
+  margin: 101px 0 0 0;
+  font-size: 0px;
+  background: #111bd2;
+  z-index: 13;
+  overflow: visible auto;
+}
+.amazing-customer-service-15 {
+  display: block;
+  position: relative;
+  height: 55px;
+  margin: 42px 0 0 100px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 33;
+}
+.amazing-customer-service-16 {
+  display: block;
+  position: relative;
+  height: 55px;
+  margin: 34px 0 0 100px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 31;
+}
+.rectangle-17 {
+  position: relative;
+  width: 190px;
+  height: 41px;
+  margin: 56px 0 0 100px;
+  background: #ffffff;
+  z-index: 35;
+}
+.start-a-project-18 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 10px;
+  left: 18px;
+  color: #111bd2;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 36;
+}
+.flex-row-dcb {
+  position: relative;
+  width: 1436px;
+  height: 302px;
+  margin: -5px 0 0 -35px;
+  z-index: 58;
+}
+.rectangle-19 {
+  position: absolute;
+  width: 1436px;
+  height: 195px;
+  top: 0;
+  left: 0;
+  background: #000000;
+  z-index: 37;
+}
+.sparkvise-1a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 554px;
+  height: 276px;
+  top: 26px;
+  left: 675px;
+  color: rgba(255, 255, 255, 0.2);
+  font-family: League Spartan, var(--default-font-family);
+  font-size: 150px;
+  font-weight: 500;
+  line-height: 138px;
+  text-align: left;
+  letter-spacing: -7.5px;
+  z-index: 58;
+}
+.mask-group {
+  position: absolute;
+  width: 1280px;
+  height: 742px;
+  top: 0;
+  left: 0;
+  background: url(../assets/images1/808e65b8-5963-4f8d-9908-a1e3789d6b76.png)
+  no-repeat center;
+  background-size: cover;
+}
+.flex-row-a {
+  position: absolute;
+  height: 7128px;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 43;
+}
+.straight-line {
+  position: absolute;
+  width: 1px;
+  height: 4815px;
+  top: 0;
+  left: 99.5px;
+  background: url(../assets/images1/802f30b2-082d-4f17-83b7-72d707014024.png)
+  no-repeat center;
+  background-size: cover;
+  background: transparent;
+  z-index: 11;
+}
+.straight-line-1b {
+  position: absolute;
+  width: 1px;
+  height: 4815px;
+  top: 0;
+  right: 99.5px;
+  background: url(../assets/images1/e3b148ac-3e1b-4728-bf39-dbeaa05551bf.png)
+  no-repeat center;
+  background-size: cover;
+  background: transparent;
+  z-index: 10;
+}
+.rectangle-1c {
+  position: absolute;
+  width: 1280px;
+  height: 654px;
+  top: 1680px;
+  left: 0;
+  font-size: 0px;
+  background: #111bd2;
+  z-index: 12;
+}
+.amazing-customer-service-1d {
+  display: block;
+  position: relative;
+  height: 55px;
+  margin: 80px 0 0 100px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 32;
+}
+.amazing-customer-service-1e {
+  position: relative;
+  width: 1080px;
+  height: 385px;
+  margin: 30px 0 0 101px;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  z-index: 30;
+}
+.at-sparkvise {
+  position: relative;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+}
+.sparkvise-1f {
+  position: relative;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+}
+.dedicated-to-transforming {
+  position: relative;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+}
+.rectangle-20 {
+  position: absolute;
+  width: 330px;
+  height: 52px;
+  top: 2277px;
+  left: 111px;
+  background: #00faff;
+  z-index: 60;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.ellipse-21 {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 27px;
+  left: 19px;
+  background: url(../assets/images1/9e8e68bf-5385-4b71-80cf-ece077145bca.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 50;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.group {
+  position: absolute;
+  width: 7.91%;
+  height: 31px;
+  top: 39px;
+  left: 10%;
+  background: url(../assets/images1/d745320f-c9de-441b-b5d2-9db40619a17a.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 53;
+}
+.rectangle-22 {
+  position: absolute;
+  width: 330px;
+  height: 52px;
+  top: 2277px;
+  left: 476px;
+  background: #a100ff;
+  z-index: 60;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.ellipse-23 {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 27px;
+  left: 19px;
+  background: url(../assets/images1/8d7af859-77e4-4df7-b3dd-9d9000f3e37c.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 51;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+.group-24 {
+  position: absolute;
+  width: 7.58%;
+  height: 25px;
+  top: 42px;
+  left: 10.3%;
+  background: url(../assets/images1/bfa9d660-6f52-4198-b911-4f5c73f6cebf.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 54;
+}
+.rectangle-25 {
+  position: absolute;
+  width: 330px;
+  height: 52px;
+  top: 2277px;
+  left: 841px;
+  background: #bdff07;
+  z-index: 60;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.ellipse-26 {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 27px;
+  left: 19px;
+  background: url(../assets/images1/83ef3a9a-d364-4230-81f8-81f7949866e6.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 52;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+.frame-27 {
+  position: absolute;
+  width: 26px;
+  height: 25px;
+  top: 42px;
+  left: 35px;
+  background: url(../assets/images1/a357f965-190b-4dbb-b9d0-61e20ffae1dc.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 55;
+}
+.rectangle-28 {
+  position: absolute;
+  width: 350px;
+  height: 241px;
+  top: 2329px;
+  left: 101px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 41;
+  border-radius: 10px;
+}
+.initial-review {
+  display: block;
+  position: relative;
+  height: 28px;
+  margin: 46px 0 0 39px;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 44;
+}
+.comprehensive-website-design {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 251px;
+  height: 100px;
+  margin: 20px 0 0 39px;
+  color: #50606d;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  z-index: 45;
+}
+.rectangle-29 {
+  position: absolute;
+  width: 350px;
+  height: 241px;
+  top: 2329px;
+  left: 466px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 42;
+  border-radius: 10px;
+}
+.initial-review-2a {
+  display: block;
+  position: relative;
+  height: 28px;
+  margin: 46px 0 0 39px;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 48;
+}
+.custom-mobile-apps {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 271px;
+  height: 100px;
+  margin: 20px 0 0 39px;
+  color: #50606d;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  z-index: 46;
+}
+.rectangle-2b {
+  position: absolute;
+  width: 350px;
+  height: 241px;
+  top: 2329px;
+  left: 831px;
+  background: #ffffff;
+  z-index: 43;
+  border-radius: 10px;
+}
+.customer-experience-outsourcing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 237px;
+  height: 84px;
+  top: 46px;
+  left: 39px;
+  color: #082b49;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  z-index: 49;
+}
+.customer-experience-solutions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 289px;
+  height: 100px;
+  top: 113px;
+  left: 39px;
+  color: #50606d;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  z-index: 47;
+}
+.rectangle-2c {
+  position: absolute;
+  width: 1280px;
+  height: 360px;
+  top: 1320px;
+  left: 0;
+  background: url(../assets/images1/40a166fdf1c18d7845e482def13e7645cc379c9c.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 2;
+}
+.mask-group-2d {
+  position: absolute;
+  width: 1280px;
+  height: 533px;
+  top: 2966px;
+  left: 0;
+  background: url(../assets/images1/6ddb031d-a645-4724-8a57-4ce394e85ddc.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 34;
+}
