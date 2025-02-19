@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Page1 from './Page1/index_Desktop';
 import Page2 from './Page2/index_Mobile';
 

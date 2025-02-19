@@ -1,4 +1,4 @@
-import React, {useState, useRef} from "react";
+import {useState, useRef} from "react";
 import TextField from '@mui/material/TextField';
 import "./index_Mobile.css";
 import exitImg from '../assets/exit.png';
@@ -500,8 +500,8 @@ export default function Main() {
         <div className="rectangle-a-Page2">
             <span className="amazing-customer-service-b-Page2">//Let’s talk</span>
             <span className="get-in-touch-Page2">
-          Get in touch, and let’s get to work.
-        </span>
+                Get in touch, and let’s get to work.
+            </span>
             <div className="rectangle-c-Page2" onClick={openModal}>
                 <span className="start-project-Page2">START A PROJECT</span>
             </div>

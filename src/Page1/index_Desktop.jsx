@@ -1,4 +1,4 @@
-import React, {useState, useRef} from "react";
+import {useState, useRef} from "react";
 import TextField from '@mui/material/TextField';
 import "./index_Desktop.css";
 import exitImg from '../assets/exit.png';
