@@ -357,8 +357,9 @@ export default function Main() {
       </div>
 
       <span className="we-save-you-company-Page2">
-        Where Ideas Spark,Solutions Emerge!
+        Where Ideas Spark, <br/>Solutions Emerge!
       </span>
+
 
       <div className="rectangle-Page2">
         <span className="you-deserve-expertise-Page2">
