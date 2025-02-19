@@ -10,11 +10,16 @@ export default function Main() {
     const [showThanks, setShowThanks] = useState(false);
     const [showModal, setShowModal] = useState(false);
 
+
     // 2. 建立一个引用，用于关联表单
     const formRef = useRef(null);
 
     // 打开弹窗
     const openModal = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"   // 平滑滚动，也可用 "auto"
+        });
         console.log("openModal");
         setShowModal(true);
     };
@@ -31,6 +36,7 @@ export default function Main() {
 
         const firstName = formRef.current["user_first_name"].value;
         const lastName = formRef.current["user_last_name"].value;
+
         e.preventDefault();
         if (!firstName.trim() || !lastName.trim()) {
             alert("First name or Last name cannot be empty ");
@@ -330,7 +336,7 @@ export default function Main() {
 
                                 }}>
                                     Sparkvise Team
-                                    </span>
+                                </span>
                             </div>
                         )
 

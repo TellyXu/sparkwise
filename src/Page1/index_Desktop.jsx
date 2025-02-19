@@ -14,6 +14,10 @@ export default function Main() {
 
     // 打开弹窗
     const openModal = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"   // 平滑滚动，也可用 "auto"
+        });
         console.log("openModal");
         setShowModal(true);
     };
