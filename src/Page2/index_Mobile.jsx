@@ -376,7 +376,7 @@ export default function Main() {
 
 
       <span className="amazing-customer-service-Page2">//About us</span>
-      <div className="amazing-customer-service-2-Page2">
+      <div className="amazing-customer-service-2-Page2" style={{ fontSize: '38px' }}>
         <span className="full-service-digital-agency-Page2">
           Sparkvise is a full-service, digital agency based in Chicago,
           specializing in{" "}
@@ -401,7 +401,7 @@ export default function Main() {
       <div className="rectangle-13-Page2" />
       <div className="rectangle-14-Page2">
         <span className="amazing-customer-service-15-Page2">//What we do</span>
-        <div className="amazing-customer-service-16-Page2">
+        <div className="amazing-customer-service-16-Page2" style={{ fontSize: '38px' }}>
           <span className="at-Page2">At </span>
           <span className="sparkvise-17-Page2">Sparkvise</span>
           <span className="at-18-Page2">
@@ -505,6 +505,7 @@ export default function Main() {
                 <span className="start-project-Page2">START A PROJECT</span>
             </div>
         </div>
+
         <div className="rectangle-d-Page2">
         <span className="sparkvise-Page2">
           Sparkvise
@@ -513,7 +514,7 @@ export default function Main() {
         </div>
         <div className="mask-group-Page2" />
         <div className="rectangle-e-Page2">
-            <span className="start-project-f-Page2" onClick={openModal}>START A PROJECT</span>
+            <span className="start-project-f-Page2" onClick={openModal} >START A PROJECT</span>
         </div>
         <div className="sparkvise-10-Page2" />
       <div className="group-30-Page2" />
