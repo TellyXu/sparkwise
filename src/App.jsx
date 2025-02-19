@@ -12,7 +12,7 @@ export default function App() {
     }, []);
 
     let content, designWidth;
-    if (windowWidth >= 1280) {
+    if (windowWidth >= 960) {
         content = <Page1 />;
         designWidth = 1280;
     } else {

@@ -1,13 +1,347 @@
-import React from "react";
+import React, {useState, useRef} from "react";
+import TextField from '@mui/material/TextField';
 import "./index_Mobile.css";
+import exitImg from '../assets/exit.png';
+
+import emailjs from '@emailjs/browser';
+
 
 export default function Main() {
+    const [showThanks, setShowThanks] = useState(false);
+    const [showModal, setShowModal] = useState(false);
+
+    // 2. 建立一个引用，用于关联表单
+    const formRef = useRef(null);
+
+    // 打开弹窗
+    const openModal = () => {
+        console.log("openModal");
+        setShowModal(true);
+    };
+
+    // 关闭弹窗
+    const closeAll = () => {
+        console.log("closeAll");
+        setShowModal(false);
+        setShowThanks(false);
+    };
+
+    // 3. 发送邮件的函数
+    const sendEmail = (e) => {
+
+        const firstName = formRef.current["user_first_name"].value;
+        const lastName = formRef.current["user_last_name"].value;
+        e.preventDefault();
+        if (!firstName.trim() || !lastName.trim()) {
+            alert("First name or Last name cannot be empty ");
+            return; // 直接 return，阻止继续发送
+        }
+
+        emailjs.sendForm(
+            'service_dceugs9',
+            'template_vjroeku',
+            formRef.current,
+            'cgPLaRRCCpTc06CpD'
+        )
+            .then(
+                (result) => {
+                    console.log('SUCCESS!', result.text);
+                    // 如果发送成功，可以选择这里就关闭弹窗，或给出提示信息
+                    setShowModal(false);
+                    setShowThanks(true);
+                },
+                (error) => {
+                    alert('please contact michaelxunanzhang@gmail.com directly. ERROR: ', error.message);
+                    console.log('FAILED...', error.text);
+                }
+            );
+    };
+
+
   return (
     <div className="main-container-Page2">
 
+        {(showModal || showThanks) && (
+            <div
+                style={{
+                    // 全屏遮罩层
+                    position: 'fixed',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '1000px',
+                    backgroundColor: 'rgba(128, 128, 128, 0.8)', // 半透明灰色
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    zIndex: 999,
+                }}
+            >
+                <div
+                    style={{
+                        width: '272px',
+                        height: '560px',
+                        backgroundColor: '#fff',
+                        padding: '20px',
+                        boxSizing: 'border-box',
+                        position: 'fixed',   // 使用固定定位
+                        top: '0%',          // 顶部位置可根据需要做进一步调整
+                        left: '50%',
+                        transform: 'translate(-50%, 10%)',
+                        zIndex: 1000,       // 确保弹窗在最上层
+                    }}
+                >
+                    {showModal &&(<p
+                    style={{
+                        position: 'absolute',
+                        marginTop: '0px',
+                        top: "0px",    // 根据需要调整
+                        left: "10px",   // 根据需要调整
+                        fontSize: '35px',
+                        fontWeight: '400',
+                        lineHeight: '75px',
+                        textAlign: 'left',
+                        fontFamily: 'Roboto',
+                    }}>Get in touch</p>)}
+                    <img
+                        src={exitImg}
+                        alt="关闭弹窗"
+                        onClick={closeAll}
+                        style={{
+                            cursor: "pointer",
+                            width: "40px",
+                            height: "40px",
+                            position: "absolute",
+                            top: "18px",    // 根据需要调整
+                            right: "10px"   // 根据需要调整
+                        }}
+                    />
+                    {showModal &&
+                        (<form ref={formRef} style={{position: 'relative'}}>
+                            <TextField
+                                style={{
+                                    position: 'absolute',
+                                    top: '50px',
+                                    left: '0px',
+                                }}
+
+                                InputProps={{
+                                    style: {
+                                        fontSize: '1.2rem',
+                                        padding: '0px 0px',
+                                        height: '60px'
+                                    }
+                                }}
+                                required
+                                id="standard-required"
+                                label="First Name"
+                                variant="standard"
+                                name="user_first_name"   // 加上 name 属性
+                            />
+
+                            <TextField
+                                style={{
+                                    position: 'absolute',
+                                    top: '125px',
+                                    left: '0px',
+                                }}
+
+                                InputProps={{
+                                    style: {
+                                        fontSize: '1.2rem',
+                                        padding: '0px 0px',
+                                        height: '60px'
+                                    }
+                                }}
+                                required
+                                id="standard-required"
+                                label="Last Name"
+                                variant="standard"
+                                name="user_last_name"    // 加上 name 属性
+                            />
+
+                            <TextField
+                                style={{
+                                    position: 'absolute',
+                                    top: '200px',
+                                    left: '0px',
+                                }}
+
+                                InputProps={{
+                                    style: {
+                                        fontSize: '1.2rem',
+                                        padding: '0px 0px',
+                                        height: '60px'
+                                    }
+                                }}
+
+                                id="standard-basic"
+                                label="Phone"
+                                variant="standard"
+                                name="user_phone"        // 加上 name 属性
+                            />
+
+                            <TextField
+                                style={{
+                                    position: 'absolute',
+                                    top: '275px',
+                                    left: '0px',
+                                }}
+
+                                InputProps={{
+                                    style: {
+                                        fontSize: '1.2rem',
+                                        padding: '0px 0px',
+                                        height: '60px'
+                                    }
+                                }}
+                                id="standard-basic"
+                                label="Email"
+                                variant="standard"
+                                name="user_email"        // 加上 name 属性
+                            />
+
+                            <TextField
+                                style={{
+                                    position: 'absolute',
+                                    top: '350px',
+                                    left: '0px',
+                                }}
+                                InputProps={{
+                                    style: {
+                                        fontSize: '1.2rem',
+                                        padding: '0px 0px',
+                                        height: '60px'
+                                    }
+                                }}
+                                id="standard-basic"
+                                label="Message"
+                                variant="standard"
+                                name="message"           // 加上 name 属性
+                            />
+
+                            <div style={{
+                                position: "absolute",
+                                top: '475px',
+                                left: '0%',
+                                width: "190px",
+                                height: "41px",
+                                background: "#111bd2",
+                                cursor: 'pointer'
+                            }}
+                                // onClick 即可发送邮件
+                                 onClick={sendEmail}
+                            >
+                                    <span className="sendenquiry-Page2"
+                                          style={{
+                                              display: 'inline-block',
+                                              textAlign: 'center',
+                                              color: '#fff',
+                                              lineHeight: '41px',
+                                          }}
+                                    >
+                                      SEND ENQUIRY
+                                    </span>
+                            </div>
+                        </form>)
+                    }
+                    {showThanks &&
+                        (
+                            <div>
+                                <p style={{
+                                    position: 'absolute',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    left: '50%',
+                                    top: '18%',
+                                    transform: 'translate(-50%, -50%)',
+                                    fontFamily: 'Roboto, var(--default-font-family)',
+                                    fontSize: '25px',
+                                    fontWeight: '300',
+                                    lineHeight: '42px',
+                                    whiteSpace: 'nowrap',
+                                }}>
+                                    Thank You For Telling
+                                </p>
+                                <p style={{
+                                    position: 'absolute',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    left: '50%',
+                                    top: '25%',
+                                    transform: 'translate(-50%, -50%)',
+                                    fontFamily: 'Roboto, var(--default-font-family)',
+                                    fontSize: '25px',
+                                    fontWeight: '300',
+                                    lineHeight: '42px',
+                                    whiteSpace: 'nowrap',
+                                }}>
+                                    Us Your Story!
+                                </p>
+
+                                <span style={{
+                                    position: 'absolute',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    left: '50%',
+                                    top: '37%',
+                                    transform: 'translate(-50%, -50%)',
+                                    fontFamily: 'Roboto, var(--default-font-family)',
+                                    fontSize: '25px',
+                                    fontWeight: '300',
+                                    lineHeight: '42px',
+                                    whiteSpace: 'nowrap',
+
+
+                                }}>
+                                        We Will Get Back To
+                                </span>
+                                <span style={{
+                                    position: 'absolute',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    left: '50%',
+                                    top: '44%',
+                                    transform: 'translate(-50%, -50%)',
+                                    fontFamily: 'Roboto, var(--default-font-family)',
+                                    fontSize: '25px',
+                                    fontWeight: '300',
+                                    lineHeight: '42px',
+                                    whiteSpace: 'nowrap',
+
+
+                                }}>
+                                         You Shortly!
+                                </span>
+
+                                <span style={{
+                                    position: 'absolute',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    left: '50%',
+                                    top: '60%',
+                                    transform: 'translate(-50%, -50%)',
+                                    fontFamily: 'Roboto, var(--default-font-family)',
+                                    fontSize: '30px',
+                                    fontWeight: '600',
+                                    lineHeight: '42px',
+                                    color: '#111BD2',
+                                    whiteSpace: 'nowrap',
+
+                                }}>
+                                    Sparkvise Team
+                                    </span>
+                            </div>
+                        )
+
+                    }
+                </div>
+            </div>
+        )}
+
       <div className="rectangle-11-Page2">
         <span className="cut-costs-Page2">
-          customer satisfaction because your success is our priority
+          customer satisfaction <br/> because your success is our priority
         </span>
       </div>
 
@@ -161,7 +495,7 @@ export default function Main() {
             <span className="get-in-touch-Page2">
           Get in touch, and let’s get to work.
         </span>
-            <div className="rectangle-c-Page2">
+            <div className="rectangle-c-Page2" onClick={openModal}>
                 <span className="start-project-Page2">START A PROJECT</span>
             </div>
         </div>
@@ -173,7 +507,7 @@ export default function Main() {
         </div>
         <div className="mask-group-Page2" />
         <div className="rectangle-e-Page2">
-            <span className="start-project-f-Page2">START A PROJECT</span>
+            <span className="start-project-f-Page2" onClick={openModal}>START A PROJECT</span>
         </div>
         <div className="sparkvise-10-Page2" />
       <div className="group-30-Page2" />

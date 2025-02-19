@@ -34,7 +34,7 @@ button {
   width: 1080px;
   height: 48px;
   margin: 22px 0 0 100px;
-  z-index: 26;
+  z-index: 200;
 }
 .sparkvise {
   position: absolute;
@@ -54,7 +54,7 @@ button {
   top: 0;
   left: 890px;
   background: #111bd2;
-  z-index: 26;
+  z-index: 200;
 }
 .start-a-project {
   display: flex;
@@ -579,7 +579,7 @@ button {
   margin: 101px 0 0 0;
   font-size: 0px;
   background: #111bd2;
-  z-index: 13;
+  z-index: 200;
   overflow: visible auto;
 }
 .amazing-customer-service-15 {
@@ -616,7 +616,7 @@ button {
   height: 41px;
   margin: 56px 0 0 100px;
   background: #ffffff;
-  z-index: 35;
+  z-index: 200;
 }
 .start-a-project-18 {
   display: flex;
@@ -1028,4 +1028,37 @@ button {
   no-repeat center;
   background-size: cover;
   z-index: 34;
+}
+
+.getintouch{
+  display: flex;
+  position: absolute;
+  width: 1000px;
+  height: 84px;
+  top: 50px;
+  left: 10%;
+  color: #000000;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 28px;
+  text-align: left;
+  z-index: 400;
+}
+
+
+.sendenquiry {
+  position: absolute;
+  display: flex;
+  align-items: center;      /* 垂直居中 */
+  justify-content: center;  /* 水平居中 */
+  top: 0px;
+  left: 33px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+  white-space: nowrap;
 }

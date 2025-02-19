@@ -997,3 +997,20 @@ button {
   background-size: cover;
   z-index: 49;
 }
+
+
+.sendenquiry-Page2 {
+  position: absolute;
+  display: flex;
+  align-items: center;      /* 垂直居中 */
+  justify-content: center;  /* 水平居中 */
+  top: 0px;
+  left: 33px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+  white-space: nowrap;
+}
