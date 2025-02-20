@@ -269,7 +269,7 @@ button {
   height: 220px;
   margin: 20px 0 0 100px;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 55px;
   text-align: left;
@@ -279,7 +279,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 400;
   line-height: 55px;
   text-align: left;
@@ -288,7 +287,6 @@ button {
   position: relative;
   color: #111bd2;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 700;
   line-height: 55px;
   text-align: left;
@@ -297,7 +295,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 400;
   line-height: 55px;
   text-align: left;
@@ -306,7 +303,6 @@ button {
   position: relative;
   color: #111bd2;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 700;
   line-height: 55px;
   text-align: left;
@@ -315,7 +311,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 400;
   line-height: 55px;
   text-align: left;
@@ -324,7 +319,6 @@ button {
   position: relative;
   color: #111bd2;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 700;
   line-height: 55px;
   text-align: left;
@@ -333,7 +327,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 400;
   line-height: 55px;
   text-align: left;
@@ -342,7 +335,6 @@ button {
   position: relative;
   color: #111bd2;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 700;
   line-height: 55px;
   text-align: left;
@@ -351,7 +343,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 400;
   line-height: 55px;
   text-align: left;
@@ -741,7 +732,7 @@ button {
   height: 385px;
   margin: 30px 0 0 101px;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 55px;
   text-align: left;
@@ -751,7 +742,6 @@ button {
   position: relative;
   color: #ffffff;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 400;
   line-height: 55px;
   text-align: left;
@@ -760,7 +750,6 @@ button {
   position: relative;
   color: #ffffff;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 700;
   line-height: 55px;
   text-align: left;
@@ -769,7 +758,6 @@ button {
   position: relative;
   color: #ffffff;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 400;
   line-height: 55px;
   text-align: left;

@@ -329,10 +329,10 @@ export default function Main() {
             </div>
             <span className="about-us">//About us</span>
             <div className="amazing-customer-service">
-        <span className="digital-agency-chicago">
-          Sparkvise is a full-service, digital agency based in Chicago,
-          specializing in{" "}
-        </span>
+                <span className="digital-agency-chicago">
+                  Sparkvise is a full-service, digital agency based in Chicago,
+                  specializing in{" "}
+                </span>
                 <span className="web-design">web design</span>
                 <span className="digital-agency-chicago-6">, </span>
                 <span className="web-design-7">development</span>
@@ -341,8 +341,8 @@ export default function Main() {
                 <span className="digital-agency-chicago-a"> and </span>
                 <span className="web-design-b">marketing</span>
                 <span className="elevate-brand-experience">
-          , helping businesses elevate their brand and customer experience.
-        </span>
+                  , helping businesses elevate their brand and customer experience.
+                </span>
             </div>
             <div className="flex-row">
         <span className="our-partners">
@@ -418,13 +418,13 @@ export default function Main() {
                         <span className="at-sparkvise">At </span>
                         <span className="sparkvise-1f">Sparkvise</span>
                         <span className="dedicated-to-transforming">
-              , we are dedicated to transforming businesses through cutting-edge
-              technology solutions. Founded on innovation, expertise, and a
-              passion for problem-solving, our team of experienced developers,
-              designers, and strategists work collaboratively to deliver
-              scalable and customized IT solutions that drive efficiency,
-              growth, and success.
-            </span>
+                          , we are dedicated to transforming businesses through cutting-edge
+                          technology solutions. Founded on innovation, expertise, and a
+                          passion for problem-solving, our team of experienced developers,
+                          designers, and strategists work collaboratively to deliver
+                          scalable and customized IT solutions that drive efficiency,
+                          growth, and success.
+                        </span>
                     </div>
                 </div>
                 <div className="rectangle-20">
