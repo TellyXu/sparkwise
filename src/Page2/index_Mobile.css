@@ -24,7 +24,7 @@ button {
 .main-container-Page2 {
   position: relative;
   width: 375px;
-  height: 5900px;
+  height: 5150px;
   margin: 0 auto;
   font-size: 0px;
   background: #f4f8fb;
@@ -244,7 +244,7 @@ button {
   position: relative;
   width: 611px;
   height: 526px;
-  margin: 4480px 0 0 -137px;
+  margin: 3700px 0 0 -137px;
   font-size: 0px;
   background: #111bd2;
   z-index: 51;
@@ -475,8 +475,8 @@ button {
 .rectangle-14-Page2 {
   position: absolute;
   width: 404px;
-  height: 773px;
-  top: 1979px;
+  height: 575px;
+  top: 1510px;
   left: -16px;
   font-size: 0px;
   background: #111bd2;
@@ -499,7 +499,7 @@ button {
 .amazing-customer-service-16-Page2 {
   position: relative;
   width: 326px;
-  height: 600px;
+  height: 490px;
   margin: 10px 0 0 37px;
   font-family: Roboto, var(--default-font-family);
   font-size: 28px;
@@ -541,18 +541,21 @@ button {
   position: absolute;
   width: 375px;
   height: 1px;
-  top: 2116px;
+  top: 2085px;
   left: 0;
   background: url(../assets/images2/156279ab-7aaa-4158-96dc-b1ea59288019.png)
     no-repeat center;
   background-size: cover;
   z-index: 2;
 }
+.boxx-Page2{
+
+}
 .rectangle-19-Page2 {
   position: absolute;
   width: 330px;
   height: 52px;
-  top: 2721px;
+  top: 2121px;
   left: 21px;
   background: #00faff;
   z-index: 50;
@@ -587,7 +590,7 @@ button {
   position: absolute;
   width: 350px;
   height: 241px;
-  top: 2773px;
+  top: 2173px;
   left: 11px;
   font-size: 0px;
   background: #ffffff;
@@ -629,7 +632,7 @@ button {
   position: absolute;
   width: 330px;
   height: 52px;
-  top: 3035px;
+  top: 2435px;
   left: 21px;
   background: #a100ff;
   z-index: 50;
@@ -665,7 +668,7 @@ button {
   position: absolute;
   width: 350px;
   height: 241px;
-  top: 3087px;
+  top: 2487px;
   left: 11px;
   font-size: 0px;
   background: #ffffff;
@@ -706,7 +709,7 @@ button {
   position: absolute;
   width: 330px;
   height: 53px;
-  top: 3349px;
+  top: 2749px;
   left: 21px;
   background: #bdff07;
   z-index: 50;
@@ -752,7 +755,7 @@ button {
   position: absolute;
   width: 350px;
   height: 241px;
-  top: 3401px;
+  top: 2801px;
   left: 11px;
   background: #ffffff;
   z-index: 38;
@@ -799,7 +802,7 @@ button {
   position: absolute;
   width: 157px;
   height: 110px;
-  top: 3660px;
+  top: 3060px;
   left: 21px;
   color: #111bd2;
   font-family: Roboto, var(--default-font-family);
@@ -813,10 +816,10 @@ button {
   position: absolute;
   width: 334px;
   height: 160px;
-  top: 3732px;
+  top: 3132px;
   left: 21px;
   font-family: Roboto, var(--default-font-family);
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 40px;
   text-align: left;
@@ -826,7 +829,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 28px;
   font-weight: 400;
   line-height: 40px;
   text-align: left;
@@ -835,7 +837,6 @@ button {
   position: relative;
   color: #111bd2;
   font-family: Roboto, var(--default-font-family);
-  font-size: 28px;
   font-weight: 700;
   line-height: 40px;
   text-align: left;
@@ -844,7 +845,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 28px;
   font-weight: 400;
   line-height: 40px;
   text-align: left;
@@ -853,7 +853,6 @@ button {
   position: relative;
   color: #111bd2;
   font-family: Roboto, var(--default-font-family);
-  font-size: 28px;
   font-weight: 700;
   line-height: 40px;
   text-align: left;
@@ -862,7 +861,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 28px;
   font-weight: 400;
   line-height: 40px;
   text-align: left;
@@ -871,7 +869,7 @@ button {
   position: absolute;
   width: 1280px;
   height: 533px;
-  top: 3959px;
+  top: 3300px;
   left: -573px;
   background: url(../assets/images2/f4b6b3bb-b6a1-4bf3-ba53-6dd1c871ef52.png)
     no-repeat center;
@@ -885,7 +883,7 @@ button {
   position: absolute;
   width: 243px;
   height: 165px;
-  top: 4487px;
+  top: 3800px;
   left: 21px;
   color: #111bd2;
   font-family: Roboto, var(--default-font-family);
@@ -899,10 +897,10 @@ button {
   position: absolute;
   width: 334px;
   height: 476px;
-  top: 4558px;
+  top: 3871px;
   left: 21px;
   font-family: Roboto, var(--default-font-family);
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 34px;
   text-align: left;
@@ -912,7 +910,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 25px;
   font-weight: 400;
   line-height: 34px;
   text-align: left;
@@ -921,7 +918,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 25px;
   font-weight: 700;
   line-height: 34px;
   text-align: left;
@@ -930,7 +926,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 25px;
   font-weight: 400;
   line-height: 34px;
   text-align: left;
@@ -939,7 +934,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 25px;
   font-weight: 700;
   line-height: 34px;
   text-align: left;
@@ -948,7 +942,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 25px;
   font-weight: 400;
   line-height: 34px;
   text-align: left;
@@ -957,7 +950,7 @@ button {
   position: absolute;
   width: 258px;
   height: 52px;
-  top: 5060px;
+  top: 4260px;
   left: 72px;
   font-family: Roboto, var(--default-font-family);
   font-size: 20px;
@@ -990,7 +983,7 @@ button {
   position: absolute;
   width: 37px;
   height: 37px;
-  top: 5067px;
+  top: 4267px;
   left: 21px;
   background: url(../assets/images2/045fe5f0-a99d-4d48-b748-684ad17b4530.png)
     no-repeat center;

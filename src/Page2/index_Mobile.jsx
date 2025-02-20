@@ -416,20 +416,22 @@ export default function Main() {
         </div>
       </div>
       <div className="line-Page2" />
-      <div className="rectangle-19-Page2">
-        <div className="ellipse-1a-Page2" />
-        <div className="group-Page2" />
-      </div>
-      <div className="rectangle-1b-Page2">
-        <span className="initial-review-Page2">Website</span>
-        <span className="comprehensive-website-design-Page2">
-          Comprehensive and customized website design & development solutions
-          for YOUR business!
-        </span>
-      </div>
-      <div className="rectangle-1c-Page2">
-        <div className="ellipse-1d-Page2" />
-        <div className="group-1e-Page2" />
+      <div className="boxx-Page2">
+          <div className="rectangle-19-Page2">
+            <div className="ellipse-1a-Page2" />
+            <div className="group-Page2" />
+          </div>
+          <div className="rectangle-1b-Page2">
+            <span className="initial-review-Page2">Website</span>
+            <span className="comprehensive-website-design-Page2">
+              Comprehensive and customized website design & development solutions
+              for YOUR business!
+            </span>
+          </div>
+          <div className="rectangle-1c-Page2">
+            <div className="ellipse-1d-Page2" />
+            <div className="group-1e-Page2" />
+          </div>
       </div>
       <div className="rectangle-1f-Page2">
         <span className="initial-review-20-Page2">Mobile App</span>
