@@ -92,7 +92,7 @@ export default function Main() {
                             zIndex: 1000,       // 确保弹窗在最上层
                         }}
                     >
-                        {showModal &&(<p className="getintouch">Get in touch</p>)}
+                        {showModal && (<p className="getintouch">Get in touch</p>)}
                         <img
                             src={exitImg}
                             alt="关闭弹窗"
@@ -383,13 +383,13 @@ export default function Main() {
             <div className="flex-row-d">
                 <div className="frame"/>
                 <div className="scott-slawson">
-          <span className="anas">
-            Anas
-            <br/>
-          </span>
+                <span className="anas">
+                  Anas
+                  <br/>
+                </span>
                     <span className="operating-director-eating-in-delivery">
-            Operating Director, Eating In Delivery
-          </span>
+                    Operating Director, Eating In Delivery
+                  </span>
                 </div>
             </div>
             <div className="rectangle-14">
@@ -404,9 +404,9 @@ export default function Main() {
             <div className="flex-row-dcb">
                 <div className="rectangle-19"/>
                 <span className="sparkvise-1a">
-          Sparkvise
-          <br/>
-        </span>
+                  Sparkvise
+                  <br/>
+                </span>
             </div>
             <div className="mask-group"/>
             <div className="flex-row-a">
