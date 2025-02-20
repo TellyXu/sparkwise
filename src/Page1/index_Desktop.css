@@ -24,7 +24,7 @@ button {
 .main-container {
   position: absolute;
   width: 1280px;
-  height: 4025px;
+  height: 3975px;
   margin: 0 auto;
   background: #f4f8fb;
   overflow: hidden;
@@ -379,7 +379,7 @@ button {
   top: 84px;
   left: 0;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 55px;
   text-align: left;
@@ -389,7 +389,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 400;
   line-height: 55px;
   text-align: left;
@@ -398,7 +397,6 @@ button {
   position: relative;
   color: #111bd2;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 700;
   line-height: 55px;
   text-align: left;
@@ -407,7 +405,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 400;
   line-height: 55px;
   text-align: left;
@@ -416,7 +413,6 @@ button {
   position: relative;
   color: #111bd2;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 700;
   line-height: 55px;
   text-align: left;
@@ -425,7 +421,6 @@ button {
   position: relative;
   color: #082b49;
   font-family: Roboto, var(--default-font-family);
-  font-size: 42px;
   font-weight: 400;
   line-height: 55px;
   text-align: left;
@@ -434,7 +429,7 @@ button {
   position: relative;
   width: 1025px;
   height: 207px;
-  top: -375px;
+  top: -450px;
   margin: 708px 0 0 100px;
   z-index: 8;
 }
@@ -520,7 +515,7 @@ button {
   position: relative;
   width: 309px;
   height: 52px;
-  top: -370px;
+  top: -425px;
   margin: 10px 0 0 100px;
   z-index: 57;
 }
@@ -570,7 +565,7 @@ button {
   position: relative;
   width: 1280px;
   height: 336px;
-  top: -400px;
+  top: -450px;
   margin: 100px 0 0 0;
   font-size: 0px;
   background: #111bd2;
@@ -634,7 +629,7 @@ button {
   position: relative;
   width: 1436px;
   height: 302px;
-  top: -400px;
+  top: -450px;
   margin: -5px 0 0 -35px;
   z-index: 58;
 }
@@ -1015,7 +1010,7 @@ button {
   position: absolute;
   width: 1280px;
   height: 533px;
-  top: 2575px;
+  top: 2500px;
   left: 0;
   background: url(../assets/images1/6ddb031d-a645-4724-8a57-4ce394e85ddc.png)
   no-repeat center;
